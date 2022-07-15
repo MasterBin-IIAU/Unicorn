@@ -1,0 +1,8 @@
+lvis
+motmetrics
+numpy
+pycocotools
+torch>=1.1
+torchvision
+
+git+git://github.com/bdd100k/bdd100k.git

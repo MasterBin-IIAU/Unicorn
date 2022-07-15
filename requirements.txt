@@ -1,0 +1,36 @@
+# TODO: Update with exact module version
+PyYAML
+cython
+cython_bbox
+pandas
+pycocotools
+git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+scipy
+colorama
+jpeg4py
+visdom
+git+https://github.com/rwightman/pytorch-image-models.git
+tb-nightly
+easydict
+tikzplotlib  
+numpy
+torch>=1.7
+opencv_python
+loguru
+scikit-image
+tqdm
+torchvision
+Pillow
+thop
+ninja
+tabulate
+tensorboard
+lap
+motmetrics
+filterpy
+h5py
+prettytable
+# verified versions
+onnx==1.8.1
+onnxruntime==1.8.0
+onnx-simplifier==0.3.5
