@@ -1,5 +1,12 @@
 ## Unicorn :unicorn: : Towards Grand Unification of Object Tracking
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/multiple-object-tracking-on-bdd100k)](https://paperswithcode.com/sota/multiple-object-tracking-on-bdd100k?p=towards-grand-unification-of-object-tracking)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/multi-object-tracking-and-segmentation-on-2)](https://paperswithcode.com/sota/multi-object-tracking-and-segmentation-on-2?p=towards-grand-unification-of-object-tracking)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/multi-object-tracking-on-mots20)](https://paperswithcode.com/sota/multi-object-tracking-on-mots20?p=towards-grand-unification-of-object-tracking)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/visual-object-tracking-on-lasot)](https://paperswithcode.com/sota/visual-object-tracking-on-lasot?p=towards-grand-unification-of-object-tracking)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/visual-object-tracking-on-trackingnet)](https://paperswithcode.com/sota/visual-object-tracking-on-trackingnet?p=towards-grand-unification-of-object-tracking)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=towards-grand-unification-of-object-tracking)
+
 ![Unicorn](assets/Unicorn.png)
 
 This repository is the project page for the paper [Towards Grand Unification of Object Tracking](https://arxiv.org/abs/2207.07078)
