@@ -17,9 +17,14 @@ This repository is the project page for the paper [Towards Grand Unification of 
 - Unicorn achieves strong performance in **eight tracking benchmarks**. 
 
 ## Introduction
-- The object tracking field mainly consists of four sub-tasks: Single Object Tracking (SOT), Multiple Object Tracking (MOT), Video Object Segmentation (VOS), and Multi-Object Tracking and Segmentation (MOTS). Most previous approaches are developed for only one of or part of the sub-tasks. 
+- The object tracking field mainly consists of four sub-tasks: <br/>
+  &nbsp;&nbsp; 1. Single Object Tracking (SOT) <br/>
+  &nbsp;&nbsp; 2. Multiple Object Tracking (MOT) <br/>
+  &nbsp;&nbsp; 3. Video Object Segmentation (VOS) <br/>
+  &nbsp;&nbsp; 4. Multi-Object Tracking and Segmentation (MOTS) <br/>
+(Most previous approaches are developed for only one of or part of the sub-tasks)
 
-- For the first time, Unicorn accomplishes the great unification of the network architecture and the learning paradigm for **four tracking tasks**. Besides, Unicorn puts forwards new state-of-the-art performance on many challenging tracking benchmarks **using the same model parameters**.
+- For the first time, Unicorn accomplishes the great unification of the network architecture and the learning paradigm for **four tracking tasks**. Unicorn also incorporates state-of-the-art performance enhancements on many challenging tracking benchmarks **using the same model parameters**.
 
 This repository supports the following tasks:
 
