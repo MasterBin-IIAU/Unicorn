@@ -119,6 +119,7 @@ class Predictor(object):
         self.confthre = exp.test_conf
         self.nmsthre = exp.nmsthre
         self.test_size = exp.test_size
+        self.task = exp.task
         self.device = device
         self.fp16 = fp16
         self.preproc = ValTransform(legacy=legacy)
@@ -159,11 +160,11 @@ class Predictor(object):
 
         with torch.no_grad():
             t0 = time.time()
-            if exp.task != "inst":
+            if self.task != "inst":
                 try:
                     outputs = self.model(img)
                 except:
-                outputs, seq_dict = self.model(img)
+                    outputs, seq_dict = self.model(img)
                 if self.decoder is not None:
                     outputs = self.decoder(outputs, dtype=outputs.type())
                 outputs = postprocess(
