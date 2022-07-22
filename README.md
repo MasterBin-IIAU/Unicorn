@@ -36,9 +36,7 @@ Video-level
 ## Demo
 Unicorn conquers four tracking tasks (SOT, MOT, VOS, MOTS) using **the same network** with **the same parameters**.
 
-<div align="center">
-  <img src="assets/video_demo.gif" width="700px" />
-</div>
+https://user-images.githubusercontent.com/6366788/180479685-c2f4bf3e-3faf-4abe-b401-80150877348d.mp4
 
 ## Results
 ### SOT
