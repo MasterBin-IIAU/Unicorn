@@ -1,6 +1,6 @@
 # Tutorial for Training
 
-Every experiment is defined using a python file under the `exps/default` folder. Experiments about object detection and object tracking start with `unicorn_det` and `unicorn_track` respectively. In the next paragraphs, ${exp_name} should be replaced with specifc filenames (without .py). For example, if you want to train unicorn with convnext-tiny backbone for object tracking, replace ${exp_name} with unicorn_track_tiny
+Every experiment is defined using a python file under the `exps/default` folder. Experiments about object detection and object tracking start with `unicorn_det` and `unicorn_track` respectively. In the next paragraphs, {exp_name} should be replaced with specifc filenames (without .py). For example, if you want to train unicorn with convnext-tiny backbone for object tracking, replace ${exp_name} with unicorn_track_tiny
 
 ## Detection & Instance Segmentation
 
