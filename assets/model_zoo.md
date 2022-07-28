@@ -85,7 +85,7 @@ The results of the first group of models are shown as below.
     <td>41.2</td>
     <td>69.2</td>
     <td>29.6</td>
-    <td><a href="https://drive.google.com/file/d/1P4__Xd1wvET5Sow21_zmOx3lupAuEWN6/view?usp=sharing">model</a></td>
+    <td><a href="https://huggingface.co/NimaBoscarino/unicorn_track_large_mask">model</a></td>
     <td><a href="https://drive.google.com/file/d/1GZwqWsMgx8H3VYPZcDwk_4XxTSJxEyEf/view?usp=sharing">log1</a></td>
     <td><a href="https://drive.google.com/file/d/1eWLNiOyKFX8Tu0Xfp2whR1g7n8CBEMQ7/view?usp=sharing">log2</a></td>
   </tr>
@@ -96,7 +96,7 @@ The results of the first group of models are shown as below.
     <td>39.9</td>
     <td>68.0</td>
     <td>29.7</td>
-    <td><a href="https://drive.google.com/file/d/1FXDRz-9s426FRvjqZ-ghVCfv7slkyR20/view?usp=sharing">model</a></td>
+    <td><a href="https://huggingface.co/NimaBoscarino/unicorn_track_tiny_mask">model</a></td>
     <td><a href="https://drive.google.com/file/d/1BQPi5e_iOCQBKYj55U0Um7Y2NI69_R5z/view?usp=sharing">log1</a></td>
     <td><a href="https://drive.google.com/file/d/1dgTiATiVFyZT4xYkvxHO6kgjNSCzfd5m/view?usp=sharing">log2</a></td>
   </tr>
@@ -107,7 +107,7 @@ The results of the first group of models are shown as below.
     <td>37.5</td>
     <td>66.8</td>
     <td>26.2</td>
-    <td><a href="https://drive.google.com/file/d/16mf7Fhs3KXY75WfX4WH8a7Sm4Dh0vjrW/view?usp=sharing">model</a></td>
+    <td><a href="https://huggingface.co/NimaBoscarino/unicorn_track_tiny_rt_mask">model</a></td>
     <td><a href="https://drive.google.com/file/d/1ObMKqOr46AKmAcIC6-pTez6s0mxgTAqy/view?usp=sharing">log1</a></td>
     <td><a href="https://drive.google.com/file/d/1HdRj5ME157hDO84k6lxnA6gz1Tbe5EdQ/view?usp=sharing">log2</a></td>
   </tr>
@@ -118,7 +118,7 @@ The results of the first group of models are shown as below.
     <td>35.1</td>
     <td>66.2</td>
     <td>30.8</td>
-    <td><a href="https://drive.google.com/file/d/1sHgysPI3-8O3U6K2ExljW4z9JrvuElSJ/view?usp=sharing">model</a></td>
+    <td><a href="https://huggingface.co/NimaBoscarino/unicorn_track_r50_mask">model</a></td>
     <td><a href="https://drive.google.com/file/d/13tDFEjFbYYZAYvDYkOXoKThDyfRT7-53/view?usp=sharing">log1</a></td>
     <td><a href="https://drive.google.com/file/d/1Qh45-TW4Nw9qx7Gkk4L6uDKGXomnnuKy/view?usp=sharing">log2</a></td>
   </tr>
@@ -141,7 +141,7 @@ The results of the second group of models are shown as below.
     <td>800x1280</td>
     <td>77.2</td>
     <td>65.3</td>
-    <td><a href="https://drive.google.com/file/d/1tktJbsdA3peX9i8tAcDGdxwxMit0rPs0/view?usp=sharing">model</a></td>
+    <td><a href="hhttps://huggingface.co/NimaBoscarino/unicorn_track_large_mot_challenge_mask">model</a></td>
     <td><a href="https://drive.google.com/file/d/1NFcEkOarlhLI6jxoibKwWVqJ9jj6NE-L/view?usp=sharing">log1</a></td>
     <td><a href="https://drive.google.com/file/d/18R_IUi8ooq4ZKah0DV0ajY7Y1GO5DYvB/view?usp=sharing">log2</a></td>
   </tr>

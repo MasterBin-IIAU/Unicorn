@@ -6,7 +6,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/visual-object-tracking-on-lasot)](https://paperswithcode.com/sota/visual-object-tracking-on-lasot?p=towards-grand-unification-of-object-tracking)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/visual-object-tracking-on-trackingnet)](https://paperswithcode.com/sota/visual-object-tracking-on-trackingnet?p=towards-grand-unification-of-object-tracking)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-grand-unification-of-object-tracking/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=towards-grand-unification-of-object-tracking)
-
+[![Models on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20Hub-blue)](https://huggingface.co/models?arxiv=arxiv:2111.12085)
 ![Unicorn](assets/Unicorn.png)
 
 This repository is the project page for the paper [Towards Grand Unification of Object Tracking](https://arxiv.org/abs/2207.07078)
