@@ -1,14 +1,17 @@
-## Object Tracking Inference
+# Object Tracking Inference
+
+## Box-level Tracking
+For box-level tracking tasks like SOT and MOT, ${exp_name} should **NOT** contain `mask`. Specifically, legal ${exp_name} for box-level tracking include `unicorn_track_large`, `unicorn_track_large_mot_challenge`, `unicorn_track_tiny`, `unicorn_track_tiny_rt`, `unicorn_track_r50`. Their corresponding weights are exactly the same as those which end with `mask`. For exmple, if you want to run experiments about `unicorn_track_tiny`, you should first copy `Unicorn_outputs/unicorn_track_tiny_mask` to `Unicorn_outputs/unicorn_track_tiny`.
 
 **SOT**
 
-LaSOT
+- LaSOT
 ```
 python3 tools/test.py unicorn_sot ${exp_name} --dataset lasot --threads 32
 python3 tools/analysis_results.py --name ${exp_name}
 ```
 
-TrackingNet
+- TrackingNet
 ```
 python3 tools/test.py unicorn_sot ${exp_name} --dataset trackingnet --threads 32
 python3 external/lib/test/utils/transform_trackingnet.py --tracker_name unicorn_sot --cfg_name ${exp_name}
@@ -17,7 +20,7 @@ python3 external/lib/test/utils/transform_trackingnet.py --tracker_name unicorn_
 
 **MOT**
 
-BDD100K
+- BDD100K
 ```
 cd external/qdtrack
 # track
@@ -26,23 +29,26 @@ bash tools/dist_test_omni.sh configs/bdd100k/unicorn.py ../../Unicorn_outputs/${
 python3 tools/eval.py configs/bdd100k/unicorn.py result_omni.pkl --eval bbox
 ```
 
-MOT Challenge 17
+- MOT Challenge 17
 ```
 python3 tools/track.py -f exps/default/${exp_name} -c <ckpt path> -b 1 -d 1 # using the association strategy in ByteTrack
 python3 tools/track_omni.py -f exps/default/${exp_name} -c <ckpt path> -b 1 -d 1 # using the association strategy in QDTrack
 python3 tools/interpolation.py # need to change some paths
 ```
 
+## Mask-level Tracking
+For Mask-level tracking tasks like VOS and MOTS, ${exp_name} should contain `mask`. Specifically, legal ${exp_name} for mask-level tracking include `unicorn_track_large_mask`, `unicorn_track_large_mot_challenge_mask`, `unicorn_track_tiny_mask`, `unicorn_track_tiny_rt_mask`, `unicorn_track_r50_mask`.
+
 **VOS**
 
-DAVIS-2016
+- DAVIS-2016
 ```
 python3 tools/test.py unicorn_vos ${exp_name} --dataset dv2016_val --threads 20
 cd external/PyDavis16EvalToolbox
 python3 eval.py --name_list_path ../../datasets/DAVIS/ImageSets/2016/val.txt --mask_root ../../datasets/DAVIS/Annotations/480p --pred_path ../../test/segmentation_results/unicorn_vos/${exp_name}/ --save_path ../../result.pkl
 ```
 
-DAVIS-2017
+- DAVIS-2017
 ```
 python3 tools/test.py unicorn_vos ${exp_name} --dataset dv2017_val --threads 30
 cd external/davis2017-evaluation
@@ -51,7 +57,7 @@ python3 evaluation_method.py --task semi-supervised --results_path ../../test/se
 
 **MOTS**
 
-MOTSChallenge
+- MOTSChallenge
 ```
 python3 tools/track_omni.py -f <exp file path> -c <ckpt path> -b 1 -d 1 --mots --mask_thres 0.3
 # for train split
@@ -60,7 +66,7 @@ cd ../MOTChallengeEvalKit
 python MOTS/evalMOTS.py
 ```
 
-BDD100K MOTS
+- BDD100K MOTS
 ```
 cd external/qdtrack
 # track
