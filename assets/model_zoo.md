@@ -141,7 +141,7 @@ The results of the second group of models are shown as below.
     <td>800x1280</td>
     <td>77.2</td>
     <td>65.3</td>
-    <td><a href="https://huggingface.co/NimaBoscarino/unicorn_track_large_mot_challenge_mask">model</a></td>
+    <td><a href="https://drive.google.com/file/d/1tktJbsdA3peX9i8tAcDGdxwxMit0rPs0/view?usp=sharing">model</a></td>
     <td><a href="https://drive.google.com/file/d/1NFcEkOarlhLI6jxoibKwWVqJ9jj6NE-L/view?usp=sharing">log1</a></td>
     <td><a href="https://drive.google.com/file/d/18R_IUi8ooq4ZKah0DV0ajY7Y1GO5DYvB/view?usp=sharing">log2</a></td>
   </tr>
